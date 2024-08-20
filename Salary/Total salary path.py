@@ -22,5 +22,5 @@ def total_salary(path: str):
         print(f"Виникла помилка: {e}")
         return 0, 0
 
-total, average = total_salary("path/to/salary_file.txt")
+total, average = total_salary("./Salary_list.txt")
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
